@@ -1,0 +1,31 @@
+
+*{
+  border-radius: 10px;
+  border: none;
+}
+
+window{
+  font-size: 25px;
+  font-family: "JetBrains Mono Medium";
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#entry{
+  padding: 0.25em;
+}
+
+#entry:selected{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+
+#text:selected{
+  color: #ffffff;
+}
+
+#input{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.25em;
+}
